@@ -1,0 +1,143 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh !important;
+  background-color: #43506f;
+}
+.text {
+  color: aliceblue;
+  font-size: 20px;
+}
+.span1 {
+  margin-right: 16px;
+}
+.span2 {
+  margin-right: 18px;
+}
+.them {
+  margin-right: 5px;
+  font-size: 15px;
+}
+.chiffre2 {
+  display: flex;
+  justify-content: end;
+}
+.chiffre1 {
+  display: flex;
+  justify-content: end;
+}
+.calcu {
+  margin-right: 120px;
+}
+.cercle {
+  width: 30px;
+  height: 2px;
+  background-color: #2c3551;
+  padding: 8px 20px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ecran {
+  width: 310px;
+  height: 80px;
+  background-color: #2c3551;
+  margin-bottom: 15px;
+  border-radius: 7px;
+  margin-top: 20px;
+  text-align: end;
+  line-height: 5;
+  padding: 10px;
+}
+
+.touche {
+  width: 330px;
+  height: 330px;
+  background-color: #2c3551;
+  justify-content: center;
+  text-align: center;
+  border-radius: 7px;
+}
+
+button {
+  justify-content: center;
+  align-items: center;
+  margin: 7px;
+}
+
+.buton {
+  width: 60px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.DEL {
+  width: 60px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(52, 131, 131);
+  color: aliceblue;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.equal {
+  width: 130px;
+  margin-left: 20px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(234, 90, 90);
+  color: aliceblue;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.RESET {
+  width: 130px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(52, 131, 131);
+  color: aliceblue;
+  font-size: 25px;
+  cursor: pointer;
+}
+/* les point dans la div */
+.circle_un {
+  width: 25px;
+}
+.circle_deux {
+  width: 25px;
+}
+.circle_trois {
+  width: 10px;
+}
+.contenu {
+  display: flex;
+}
+.point_un {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #EA5B5A;
+}
+.point_deux {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.point_trois {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
