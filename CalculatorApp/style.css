@@ -2,8 +2,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh !important;
+  height: 100vh;
   background-color: #43506f;
+  margin: 0;
 }
 .text {
   color: aliceblue;
